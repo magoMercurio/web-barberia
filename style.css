@@ -2,21 +2,16 @@
 
 
 body {
-   
+    background-color: beige;
 }
 
 #banner {
     width: 100%;
 }
 
-h1 {
-    text-align: center;
-    height: auto;
-    border: 10px solid #000000;
-    padding: 20px;
-    margin: 40px;
+.title-principal {
+    padding-left: 30px;
 }
-
 
 p {
     text-align: center;
@@ -32,14 +27,23 @@ em strong {
 
 .principal {
     background-color: #cccccc;
+    padding: 20px;
 }
 
 .diferenciales {
     background-color: #ffffff;
+    padding: 30px;
 }
 
-h2 {
+.title-center {
     text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
 }
 
 .imagenDiferenciales {
