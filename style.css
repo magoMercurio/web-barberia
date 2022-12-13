@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: #cccccc;
+   
 }
 
 #banner {
@@ -28,4 +28,24 @@ p {
 
 em strong {
     color: red;
+}
+
+.principal {
+    background-color: #cccccc;
+}
+
+.diferenciales {
+    background-color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+}
+
+.imagenDiferenciales {
+    width: 50%;
+}
+
+.items {
+    font-style: italic;
 }
