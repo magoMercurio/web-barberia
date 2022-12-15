@@ -3,7 +3,7 @@
 
 
 header {
-    background-color: #bbbbbb;
+    background-image: url("/pexels-photo-1570806.jpeg");
     padding: 20px 0;
 }
 
@@ -26,7 +26,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -83,4 +83,17 @@ nav a:hover {
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-image: url("/imagenes/bg.jpg");
+    padding: 40px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+
 }
