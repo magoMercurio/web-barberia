@@ -1,6 +1,7 @@
 
 
 
+/* aqui va el HEADER */
 
 header {
     background-image: url("/imagenes/pexels-photo-1570806.jpeg");
@@ -37,6 +38,9 @@ nav a:hover {
     color: #c78c19;
     text-decoration: underline;
 }
+
+
+/*  MAIN PRODUCTOS */
 
 .productos {
     width: 940px;
@@ -85,6 +89,19 @@ nav a:hover {
     margin-top: 10px;
 }
 
+
+/* MAIN CONTACTO*/
+
+
+
+
+
+
+
+
+
+
+/* aqui va el FOOTER */
 footer {
     text-align: center;
     background-image: url("/imagenes/bg.jpg");
