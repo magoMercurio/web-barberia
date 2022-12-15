@@ -3,7 +3,7 @@
 
 
 
-
+/* aqui va el HEADER */
 header {
     background-image: url("/imagenes/pexels-photo-1570806.jpeg");
 
@@ -41,6 +41,11 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* aqui va el MAIN */
+
+
+
+/* aqui va el FOOTER */
 footer {
     text-align: center;
     background-image: url("/imagenes/bg.jpg");
