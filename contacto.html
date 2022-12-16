@@ -23,7 +23,7 @@
         </div>
     </header>
 
-    <main>
+    <main class="contacto">
 
         <form action="">
             <label for="nombreapellido">Nombre y Apellido</label>
@@ -35,7 +35,35 @@
             <label for="telefono">Telefono</label>
             <input type="tel" id="Telefono">
 
+
+            <label for="Mensaje">Mensaje</label>
+            <textarea name="Mensaje" id="Mensaje" cols="70" rows="10"></textarea>
+
+
+            <div class="radio">
+
+                <p>Como te gustaria que te contactaramos?</p>
+
+                <label for="radio-email">Email</label>
+                <input type="radio" value="email" name="contacto" id="radio-email">
+
+                <label for="radio-telefono">Telefono</label>
+                <input type="radio" value="telefono" name="contacto" id="radio-telefono">
+
+                <label for="radio-whasapp">Whatsapp</label>
+                <input type="radio" value="whatsapp" name="contacto" id="radio-email">
+
+            </div>
+
+            <label for=""> 
+                <input type="checkbox" name="" id="">
+                Le gustariarecibir novedades de la Barberia Vintage?
+            </label>
+
             <input type="submit" value="Enviar formulario">
+
+      
+
         </form>
 
     </main>
