@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 
 
 
@@ -77,6 +81,16 @@ nav a:hover {
     background-color: #cccccc;
     padding: 20px;
 }
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
 
 .diferenciales {
     background-color: #ffffff;
