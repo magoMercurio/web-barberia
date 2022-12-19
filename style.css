@@ -39,6 +39,66 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* MAIN INDEX */
+
+
+.banner {
+    width: 100%;
+}
+
+.title-principal {
+    text-align: center;
+    font-size: 2em;
+}
+
+.principal p {
+    margin: 0 0 1rem;
+    text-align: center;
+}
+
+#mision {
+    font-size: 20px;
+}
+
+.principal em strong {
+    color: black;
+}
+
+.principal {
+    background-color: #cccccc;
+    padding: 20px;
+}
+
+.diferenciales {
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.title-center {
+    text-align: center;
+    font-size: 2em;
+}
+
+.diferenciales ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales {
+    width: 60%;
+}
+
+.items {
+    font-style: italic;
+}
+
+
+
+
+
+
 
 /*  MAIN PRODUCTOS */
 
