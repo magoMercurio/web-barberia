@@ -100,6 +100,7 @@ nav a:hover {
 .title-center {
     text-align: center;
     font-size: 2em;
+    padding-bottom: 20px;
 }
 
 .diferenciales ul {
@@ -109,7 +110,22 @@ nav a:hover {
     margin-right: 15%;
 }
 
-.imagenDiferenciales {
+.contenido-diferenciales {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items {
+    line-height: 1.5;
+}
+
+.imagen-diferenciales {
     width: 60%;
 }
 
