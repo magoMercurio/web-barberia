@@ -96,7 +96,7 @@ nav a:hover {
 }
 
 .mapa-contenido {
-    width: 940px;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -288,5 +288,31 @@ footer {
     color: white;
     font-size: 13px;
     margin: 20px;
+
+}
+
+@media screen and (max-width:640px) {
+
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+
+    .caja, .principal, .mapa, .mapa-contenido, .diferenciales, .contenido-diferenciales, .video, .contacto {
+        width: auto;
+    }
+    .lista-diferenciales, .imagen-diferenciales {
+        width: 100%;
+    }
+    .lista-diferenciales {
+            padding-bottom: 3em;
+    }
+
+    .productos, .productos li {
+        width: 100%;
+
+    }
 
 }
