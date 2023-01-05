@@ -8,7 +8,7 @@ body {
 /* aqui va el HEADER */
 
 header {
-    background-image: url("/imagenes/pexels-photo-1570806.jpeg");
+    background-image: url("/imagenes/bg.jpg");
     padding: 20px 0;
 }
 
@@ -50,6 +50,13 @@ nav a:hover {
     width: 100%;
 }
 
+.principal {
+    background-color: #fefefe;
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .title-principal {
     text-align: center;
     font-size: 2em;
@@ -58,32 +65,30 @@ nav a:hover {
 }
 
 
-.utencilios {
-    width: 120px;
-    float: left;
-    margin: 0 20px 20px 0;
-}
 
 .principal p {
     margin: 0 0 1rem;
 
 }
 
+.principal em strong {
+    color: black;
+    font-weight: bold;
+}
+
+.utencilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
 #mision {
     font-size: 20px;
 }
 
-.principal em strong {
-    color: black;
-}
-
-.principal {
-    background-color: #cccccc;
-    padding: 20px;
-}
-
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#fefefe,#888888);
 }
 
 .mapa p {
@@ -91,10 +96,15 @@ nav a:hover {
     text-align: center;
 }
 
+.mapa-contenido {
+    width: 940px;
+    margin: 0 auto;
+}
+
 
 .diferenciales {
-    background-color: #ffffff;
-    padding: 30px;
+    background-color: #888;
+    padding: 3em 0;
 }
 
 .title-center {
@@ -123,6 +133,10 @@ nav a:hover {
 
 .items {
     line-height: 1.5;
+}
+
+.items:first-child {
+    font-weight: bold;
 }
 
 .imagen-diferenciales {
