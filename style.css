@@ -280,7 +280,7 @@ td , th {
 /* aqui va el FOOTER */
 footer {
     text-align: center;
-    background-image: url("/imagenes/bg.jpg");
+    background-image: url("imagenes/bg.jpg");
     padding: 40px;
 }
 
