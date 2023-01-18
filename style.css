@@ -10,6 +10,8 @@ body {
 header {
     background-image: url("imagenes/bg.jpg");
     padding: 20px 0;
+    width: 100%;
+    height: 230px;
 }
 
 .caja {
@@ -282,6 +284,7 @@ footer {
     text-align: center;
     background-image: url("imagenes/bg.jpg");
     padding: 40px;
+    width: 100%;
 }
 
 .copyright {
